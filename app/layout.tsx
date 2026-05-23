@@ -7,12 +7,12 @@ import Footer from '@/components/Footer'
 const bebasNeue = Bebas_Neue({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-bebas',
+  variable: '--font-heading',
 })
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-body',
 })
 
 export const metadata: Metadata = {
