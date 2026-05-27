@@ -42,8 +42,8 @@ export default function BlogPreview() {
     <section className="blog-preview">
       <div className="container">
         <div className="section-intro">
-          <h2 className="section-title">Latest From The Blog</h2>
-          <p className="section-description">Training tips, nutrition advice, and mindset strategies to keep you moving forward.</p>
+          <h2 className="section-title">Great Reads</h2>
+          <p className="section-description">Training tips, nutrition advice, and mindset strategies for mental, physical, and spiritual growth.</p>
         </div>
 
         <div className="blog-grid">

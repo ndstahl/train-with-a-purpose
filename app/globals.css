@@ -222,6 +222,17 @@ ul {
     padding: 0 24px;
 }
 
+.hero-label {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 16px;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards 0.1s;
+}
+
 .hero-title {
     font-family: var(--font-heading);
     font-size: clamp(48px, 8vw, 96px);
@@ -664,6 +675,138 @@ section {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+/* ===================================
+   ABOUT SECTION
+   =================================== */
+
+.about-section {
+    background: white;
+    position: relative;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+}
+
+.about-badge {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.badge-number {
+    font-family: var(--font-heading);
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.badge-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.95;
+}
+
+.section-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.about-content .section-title {
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.about-text {
+    margin-bottom: 40px;
+}
+
+.about-text p {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.about-mission {
+    display: flex;
+    gap: 20px;
+    background: var(--bg-light);
+    padding: 32px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 32px;
+}
+
+.mission-icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    color: var(--primary-color);
+}
+
+.about-mission h3 {
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.about-mission p {
+    color: var(--text-light);
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.about-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.value-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.value-item strong {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.value-item span {
+    color: var(--text-light);
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /* ===================================
@@ -2175,6 +2318,44 @@ section {
 
     .blog-link {
         font-size: 14px;
+    }
+
+    /* About Section */
+    .about-wrapper {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .about-badge {
+        bottom: 20px;
+        left: 20px;
+        padding: 20px 28px;
+    }
+
+    .badge-number {
+        font-size: 40px;
+    }
+
+    .badge-label {
+        font-size: 13px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .about-mission {
+        padding: 24px;
+    }
+
+    .mission-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .about-values {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     /* Blog Page */

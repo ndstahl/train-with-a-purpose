@@ -27,8 +27,8 @@ export default function BlogHeader({ onCategoryChange }: BlogHeaderProps) {
   return (
     <section className="blog-header">
       <div className="container">
-        <h1 className="page-title">The Blog</h1>
-        <p className="page-subtitle">Training insights, nutrition wisdom, and mindset strategies from the trenches.</p>
+        <h1 className="page-title">Great Reads</h1>
+        <p className="page-subtitle">Articles for your mental, physical, and spiritual growth—from training insights to mindset strategies.</p>
 
         <div className="blog-categories">
           {categories.map(category => (

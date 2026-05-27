@@ -1,5 +1,6 @@
 import Hero from '@/components/sections/Hero'
 import Philosophy from '@/components/sections/Philosophy'
+import About from '@/components/sections/About'
 import Services from '@/components/sections/Services'
 import Approach from '@/components/sections/Approach'
 import InAction from '@/components/sections/InAction'
@@ -12,6 +13,7 @@ export default function Home() {
     <main>
       <Hero />
       <Philosophy />
+      <About />
       <Services />
       <Approach />
       <InAction />
